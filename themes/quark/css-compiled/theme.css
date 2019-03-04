@@ -330,7 +330,16 @@ body.sticky-footer #page-wrapper { -ms-flex: 1 0 auto; flex: 1 0 auto; }
 /** Blog Listing **/
 .blog-listing .bricklayer-column { padding-left: 0px; padding-right: 25px; }
 
-.blog-listing .card { margin-bottom: 25px; border: 0; box-shadow: 0 10px 45px -9px rgba(0, 0, 0, 0.1); }
+.blog-listing .card {
+    margin-bottom: 25px;
+    border: 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 10px 45px -9px rgba(0, 0, 0, 0.1);
+}
 
 .blog-listing .card-footer { text-align: right; }
 
